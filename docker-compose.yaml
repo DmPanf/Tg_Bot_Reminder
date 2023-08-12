@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  reminder-bot:
+    build: .
+    environment:
+      TG_TOKEN: YOUR_TELEGRAM_BOT_TOKEN
+    restart: always
